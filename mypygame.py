@@ -25,7 +25,7 @@ snake_speed = 10
 
 font_style = pygame.font.SysFont("bahnschrift",25)
 score_font = pygame.font.SysFont("comicsansms",15)
-sound=pygame.mixer.Sound(r"C:\Users\user\Desktop\New folder\game developement\bounce.wav")
+sound=pygame.mixer.Sound("bounce.wav")
 sound.set_volume(10)
 
 def Your_score(score):
